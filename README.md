@@ -149,6 +149,7 @@ int click_row_index = e.RowIndex;
 
 
 執行結果:
+
 ![](https://i.imgur.com/Xqswc58.png)
 
 
@@ -181,6 +182,7 @@ Code:
 跟設定`DataGridViewButtonColumn`的方式一樣。
 
 執行結果:
+
 ![Pasted image 20210926153712.png](https://i.imgur.com/8pYxDDS.png)
 
 
