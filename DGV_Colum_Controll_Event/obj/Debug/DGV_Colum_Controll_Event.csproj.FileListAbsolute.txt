@@ -1,0 +1,10 @@
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\bin\Debug\DGV_Colum_Controll_Event.exe.config
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\bin\Debug\DGV_Colum_Controll_Event.exe
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\bin\Debug\DGV_Colum_Controll_Event.pdb
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\obj\Debug\DGV_Colum_Controll_Event.csproj.AssemblyReference.cache
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\obj\Debug\DGV_Colum_Controll_Event.Form1.resources
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\obj\Debug\DGV_Colum_Controll_Event.Properties.Resources.resources
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\obj\Debug\DGV_Colum_Controll_Event.csproj.GenerateResource.cache
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\obj\Debug\DGV_Colum_Controll_Event.csproj.CoreCompileInputs.cache
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\obj\Debug\DGV_Colum_Controll_Event.exe
+D:\Personal-Work-Space\C# Project\DGV_Colum_Controll_Event\DGV_Colum_Controll_Event\obj\Debug\DGV_Colum_Controll_Event.pdb
