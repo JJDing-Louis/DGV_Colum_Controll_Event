@@ -8,13 +8,13 @@
 Step 1. 建立UI畫面
 
 開啟新的專案並建立DataGridView，並開啟上方的小箭頭，並取消啟動加入後，點擊編輯資料行，建立表單格式
-![[Pasted image 20210926144406.png]]
+![Pasted image 20210926144406.png](https://github.com/JJDing-Louis/DGV_Colum_Controll_Event/blob/main/CSharp_WinForm%E7%9A%84DataGridView%E6%8E%A7%E9%8D%B5Event%E8%A8%AD%E5%AE%9Apic/Pasted%20image%2020210926144406.png?raw=true)
 
 點擊後，會出現以下畫面，點選加入
-![[Pasted image 20210926144449.png]]
+![Pasted image 20210926144449.png](https://github.com/JJDing-Louis/DGV_Colum_Controll_Event/blob/main/CSharp_WinForm%E7%9A%84DataGridView%E6%8E%A7%E9%8D%B5Event%E8%A8%AD%E5%AE%9Apic/Pasted%20image%2020210926144449.png?raw=true)
 
 點選後，會出現加入資料行的畫面，在這邊可以建立要建立的資料欄位格式
-![[Pasted image 20210926144623.png]]
+![Pasted image 20210926144623.png](https://github.com/JJDing-Louis/DGV_Colum_Controll_Event/blob/main/CSharp_WinForm%E7%9A%84DataGridView%E6%8E%A7%E9%8D%B5Event%E8%A8%AD%E5%AE%9Apic/Pasted%20image%2020210926144623.png?raw=true)
 
 格式的部分，以下用表格說明:
 
@@ -31,7 +31,7 @@ Step 1. 建立UI畫面
 **me1237guy**大大的文章: [Adding Something to DataGridView](https://me1237guy.pixnet.net/blog/post/59183044) 
 
 根據想要建立的資料類型設定好後，將UI設定成以下畫面
-![[Pasted image 20210926150135.png]]
+![Pasted image 20210926150135.png](https://github.com/JJDing-Louis/DGV_Colum_Controll_Event/blob/main/CSharp_WinForm%E7%9A%84DataGridView%E6%8E%A7%E9%8D%B5Event%E8%A8%AD%E5%AE%9Apic/Pasted%20image%2020210926150135.png?raw=true)
 
 Step 2. 模擬資料載入
 
@@ -87,7 +87,7 @@ DGV_Column_cbm.DataSource = group;
 ```
 
 以下是執行後的結果:
-![[Pasted image 20210926151326.png]]
+![Pasted image 20210926151326.png](https://github.com/JJDing-Louis/DGV_Colum_Controll_Event/blob/main/CSharp_WinForm%E7%9A%84DataGridView%E6%8E%A7%E9%8D%B5Event%E8%A8%AD%E5%AE%9Apic/Pasted%20image%2020210926151326.png?raw=true)
 
 Step 3. 建立控鍵的觸發事件
 
@@ -96,7 +96,7 @@ Step 3. 建立控鍵的觸發事件
 - 建立**DataGridViewButtonColumn** 的觸發事件
 
 點擊DataGirdView，並找到事件內容的`CellContentClick`，寫入要建立的事件名稱後，用滑鼠點擊兩下，程式會自動幫你建立對應的Method，在這邊筆者命名為`ShowDetail`==(畫紅線的部分)==
-![[Pasted image 20210926152134.png]]
+![Pasted image 20210926152134.png](https://github.com/JJDing-Louis/DGV_Colum_Controll_Event/blob/main/CSharp_WinForm%E7%9A%84DataGridView%E6%8E%A7%E9%8D%B5Event%E8%A8%AD%E5%AE%9Apic/Pasted%20image%2020210926152134.png?raw=true)
 
 建立後的結果:
 Code:
@@ -149,13 +149,14 @@ int click_row_index = e.RowIndex;
 
 
 執行結果:
-![[Pasted image 20210926153806.png]]
+![](https://i.imgur.com/Xqswc58.png)
+
 
 
 - 建立**DataGridViewComboBoxColumn** 的觸發事件
 
 跟建立`DataGridViewButtonColumn`的方式一樣，點擊DataGirdView，並找到事件內容的`CellBeginEdit`，寫入要建立的事件名稱後，用滑鼠點擊兩下，程式會自動幫你建立對應的Method，在這邊筆者命名為`Modify_Option` ==(畫紅線的部分)==
-![[Pasted image 20210926152921.png]]
+![Pasted image 20210926152921.png](https://i.imgur.com/vuh6Wyz.png)
 
 建立後的結果:
 Code:
@@ -180,7 +181,8 @@ Code:
 跟設定`DataGridViewButtonColumn`的方式一樣。
 
 執行結果:
-![[Pasted image 20210926153712.png]]
+![Pasted image 20210926153712.png](https://i.imgur.com/8pYxDDS.png)
+
 
 到這邊，基本上就大功告成了!!
 
@@ -411,13 +413,15 @@ namespace DGV_Colum_Controll_Event
 如果出現鉛筆畫面，表示DataGridView為**編輯模式**
 
 點選模式:
-![[Pasted image 20210926154343.png]]
+![Pasted image 20210926154343.png](https://i.imgur.com/zbbvVTD.png)
+
 
 編輯模式:
-![[Pasted image 20210926154320.png]]
+![Pasted image 20210926154320.png](https://i.imgur.com/LWh7I20.png)
 
 2. 建立資料時，程式顯示出現無效數值
-![[Pasted image 20210926155059.png]]
+![Pasted image 20210926155059.png](https://i.imgur.com/V1o4oRz.png)
+
 建立資料時，需考慮當下欄位能接受的資料內容，例如:State欄位為CheckBox、所以只能接受`true`、`false`或者 `null`;建立ComboBox時，需要考慮帶入的值，是否在該欄位的選單項目裡面。
 
 ---
