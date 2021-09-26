@@ -413,10 +413,12 @@ namespace DGV_Colum_Controll_Event
 如果出現鉛筆畫面，表示DataGridView為**編輯模式**
 
 點選模式:
+
 ![Pasted image 20210926154343.png](https://i.imgur.com/zbbvVTD.png)
 
 
 編輯模式:
+
 ![Pasted image 20210926154320.png](https://i.imgur.com/LWh7I20.png)
 
 2. 建立資料時，程式顯示出現無效數值
